@@ -1,0 +1,12 @@
+{
+    "node": true,
+    "esnext": true,
+    "bitwise": true,
+    "camelcase": true,
+    "quotmark": "single",
+    "regexp": true,
+    "undef": true,
+    "strict": true,
+    "white": true,
+    "jasmine": true
+}
