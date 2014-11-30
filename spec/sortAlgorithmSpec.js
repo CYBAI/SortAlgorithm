@@ -12,7 +12,7 @@ describe('Sort Algorithm', function () {
   });
 });
 
-var sortArray = ['bubbleSort', 'selectionSort', 'insertionSort', 'quickSort', 'mergeSort'];
+var sortArray = ['bubbleSort', 'selectionSort', 'insertionSort', 'quickSort', 'mergeSort', 'shellSort'];
 
 sortArray.forEach(function (sortAlgorithmName) {
   describe(sortAlgorithmName, function () {
