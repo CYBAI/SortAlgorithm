@@ -19,7 +19,8 @@ var sortArray = [
   'quickSort',
   'mergeSort',
   'shellSort',
-  'heapSort'
+  'heapSort',
+  'radixSort'
 ];
 
 sortArray.forEach(function (sortAlgorithmName) {
