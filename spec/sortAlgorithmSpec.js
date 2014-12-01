@@ -24,6 +24,17 @@ sortArray.forEach(function (sortAlgorithmName) {
       expect(sort[sortAlgorithmName]([])).toEqual([]);
     });
 
+    it('Sort random array', function () {
+      var random = [];
+      for (var _i = 0; _i < 20; _i += 1) {
+        random.push(Math.floor(Math.random() * 100));
+      }
+
+      expect(sort[sortAlgorithmName](random)).toEqual(random.sort(function (a, b) {
+        return a - b;
+      }));
+    });
+
     var employee = [
       {name:'George', age:32, retiredate:'March 12, 2014'},
       {name:'Edward', age:17, retiredate:'June 2, 2023'},
