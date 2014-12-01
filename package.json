@@ -4,6 +4,7 @@
   "homepage": "https://github.com/CYBAI/SortAlgorithm",
   "version": "0.0.1",
   "author": "CYBAI",
+  "license": "MIT",
   "main": "./lib/sortAlgorithm",
   "repository": {
     "type": "git",

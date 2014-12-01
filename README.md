@@ -43,3 +43,7 @@ Array or Array of Object to be sorted
 Type: `String`
 
 if arr is an `array of object`, please pass this argument as an attribute name
+
+## License
+
+MIT
