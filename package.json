@@ -1,17 +1,17 @@
 {
+  "name": "sortAlgorithm",
   "description": "A sort algorithm library in JavaScript",
+  "homepage": "https://github.com/CYBAI/SortAlgorithm",
   "version": "0.0.1",
   "author": "CYBAI",
   "main": "./lib/sortAlgorithm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CYBAI/SortAlgorithm"
+  },
   "scripts": {
     "test": "npm run test-watch",
     "test-once": "jasmine-node spec",
     "test-watch": "jasmine-node spec --autotest --color --watch ."
-  },
-  "repository": {
-
-  },
-  "dependencies": {
-
   }
 }
