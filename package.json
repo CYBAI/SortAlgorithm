@@ -14,5 +14,8 @@
     "test": "npm run test-watch",
     "test-once": "jasmine-node spec",
     "test-watch": "jasmine-node spec --autotest --color --watch ."
+  },
+  "devDependencies": {
+    "benchmark": "^1.0.0"
   }
 }
